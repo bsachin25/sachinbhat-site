@@ -1,0 +1,215 @@
+import React from 'react';
+import { Target, TrendingUp, Zap, ArrowRight, CheckCircle2, BarChart, Globe } from 'lucide-react';
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
+      {/* Navigation - Made sticky with glassmorphism */}
+      <nav className="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
+        <div className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
+          <div className="text-xl font-bold tracking-tight text-slate-800">
+            Sachin Bhat<span className="text-blue-600">.</span>
+          </div>
+          <div className="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+            <a href="#proof" className="hover:text-blue-600 transition-colors">Track Record</a>
+            <a href="#approach" className="hover:text-blue-600 transition-colors">My Approach</a>
+            <a href="#services" className="hover:text-blue-600 transition-colors">How We Work</a>
+          </div>
+          <a 
+            href="#contact" 
+            className="bg-gradient-to-b from-slate-800 to-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all shadow-md shadow-slate-900/10 border border-slate-700 hover:border-blue-500"
+          >
+            Let's Talk
+          </a>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <header className="px-6 py-16 md:py-24 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="space-y-8 relative z-10">
+          <div className="inline-flex items-center space-x-2 bg-white/60 backdrop-blur-md text-blue-800 px-3 py-1.5 rounded-full text-sm font-semibold border border-blue-100 shadow-sm">
+            <span className="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse shadow-[0_0_8px_rgba(37,99,235,0.8)]"></span>
+            <span>Accepting new clients for Q3</span>
+          </div>
+          <h1 className="text-5xl md:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-900 drop-shadow-sm">
+            Capture the audience with the right intent.
+          </h1>
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-lg">
+            I am Sachin Bhat. With over 7 years of industry experience, I help SaaS and E-commerce businesses stop chasing useless traffic and start driving real leads, market share, and revenue.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <a 
+              href="#contact" 
+              className="group flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-500 hover:to-blue-400 transition-all shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 border border-blue-400/20 hover:-translate-y-0.5"
+            >
+              <span>Discuss Your Growth</span>
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+          </div>
+        </div>
+        
+        {/* Image Placeholder */}
+        <div className="relative">
+          {/* Decorative Glossy Blob behind image */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-blue-100/50 rounded-3xl transform translate-x-4 translate-y-4 -z-10 blur-[2px]"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800&h=1000" 
+            alt="Sachin Bhat" 
+            className="rounded-3xl shadow-2xl shadow-slate-900/10 w-full object-cover aspect-[4/5] grayscale transition-all duration-500 border border-white/40"
+          />
+          {/* Glassmorphism floating card */}
+          <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-lg p-4 rounded-2xl shadow-xl shadow-slate-900/10 border border-white/60">
+            <div className="flex items-center space-x-4">
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-2.5 rounded-full text-green-600 shadow-inner border border-green-200/50">
+                <TrendingUp size={24} />
+              </div>
+              <div>
+                <p className="font-bold text-slate-900">7+ Years</p>
+                <p className="text-sm text-slate-600 font-medium">Proven search industry experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Track Record / Proof Section */}
+      <section id="proof" className="bg-slate-900 py-20 text-white relative overflow-hidden">
+        {/* Subtle top glare & background glow */}
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/20 to-transparent pointer-events-none"></div>
+        
+        <div className="max-w-6xl mx-auto px-6 relative z-10">
+          <p className="text-blue-400 font-semibold mb-8 text-center tracking-wide uppercase text-sm drop-shadow-md">The Track Record</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="border-l-2 border-blue-500/70 pl-6 hover:border-blue-400 transition-colors">
+              <p className="text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">5x</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Growth in monthly signups achieved for a major SaaS brand within 6 months.</p>
+            </div>
+            <div className="border-l-2 border-blue-500/70 pl-6 hover:border-blue-400 transition-colors">
+              <p className="text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">2x</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Increase in daily clicks for a massive 10,000+ product e-commerce catalog in just 90 days.</p>
+            </div>
+            <div className="border-l-2 border-blue-500/70 pl-6 hover:border-blue-400 transition-colors">
+              <p className="text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">150k+</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Monthly visitors managed and sustained across high-competition content clusters.</p>
+            </div>
+            <div className="border-l-2 border-blue-500/70 pl-6 hover:border-blue-400 transition-colors">
+              <p className="text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">200%</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Improvement in ChatGPT driven traffic using advanced Answer Engine Optimization (AEO).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The AI Philosophy Section */}
+      <section id="approach" className="bg-slate-50 py-24 relative">
+        <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
+            The agency model is bloated. I built something leaner.
+          </h2>
+          <div className="text-lg text-slate-600 leading-relaxed space-y-6 text-left md:text-center">
+            <p>
+              Traditional SEO agencies throw bodies at problems and bill you for their overhead. I take a different path. I run a highly specialized solopreneur business powered by custom AI agents and a small team of junior SEOs who manage them.
+            </p>
+            {/* Elevated Glossy Box */}
+            <div className="bg-white/80 backdrop-blur-md p-8 rounded-2xl border border-white shadow-xl shadow-slate-200/50 text-left relative overflow-hidden group hover:shadow-2xl hover:shadow-slate-200/60 transition-all">
+              <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-blue-400 to-blue-600"></div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center space-x-2">
+                <Zap className="text-blue-500" size={24} />
+                <span>The AI Elephant in the Room</span>
+              </h3>
+              <p className="text-slate-700 leading-relaxed">
+                If you doubt if Google ranks AI content or not, let me tell you a secret. The exact copy you are reading right now was written using AI. Not blindly generated, but actively assisted and heavily edited to match my exact thoughts. The tools have changed, but the goal remains the same. It is about answering user intent better than your competition. I build automated systems that do exactly that at scale.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Value Proposition Section */}
+      <section id="services" className="py-24 max-w-6xl mx-auto px-6">
+        <div className="mb-16 md:text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 tracking-tight">
+            How we drive revenue together.
+          </h2>
+          <p className="text-lg text-slate-600">
+            I do not sell keyword rankings. I sell business growth. Here is what my framework actually delivers for your business.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Glossy Cards */}
+          <div className="bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-lg shadow-slate-200/40 border border-slate-100 hover:border-blue-100 hover:shadow-xl hover:shadow-blue-900/5 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-100 w-14 h-14 rounded-2xl flex items-center justify-center text-blue-600 mb-6 shadow-inner">
+              <Target size={28} />
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">Intent-Driven Strategy</h3>
+            <p className="text-slate-600 leading-relaxed">
+              Traffic is a vanity metric if it does not convert. We map out exactly what your ideal buyers are searching for right before they are ready to spend money. I have a track record of securing top 10 positions for high-competition terms without relying on heavy backlinks.
+            </p>
+          </div>
+
+          <div className="bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-lg shadow-slate-200/40 border border-slate-100 hover:border-blue-100 hover:shadow-xl hover:shadow-blue-900/5 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-100 w-14 h-14 rounded-2xl flex items-center justify-center text-blue-600 mb-6 shadow-inner">
+              <Globe size={28} />
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">AEO & GEO Optimization</h3>
+            <p className="text-slate-600 leading-relaxed">
+              Google is no longer the only game in town. I optimize your brand visibility across generative AI tools like ChatGPT, Claude, Perplexity, and Google AI Overviews to ensure you capture market share wherever your audience asks questions.
+            </p>
+          </div>
+
+          <div className="bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-lg shadow-slate-200/40 border border-slate-100 hover:border-blue-100 hover:shadow-xl hover:shadow-blue-900/5 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-100 w-14 h-14 rounded-2xl flex items-center justify-center text-blue-600 mb-6 shadow-inner">
+              <Zap size={28} />
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">Rapid Execution</h3>
+            <p className="text-slate-600 leading-relaxed">
+              You get the strategic brain of a 7-year veteran combined with the output speed of automated systems. From technical audits to content scaling, we execute campaigns in days rather than months.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section id="contact" className="bg-gradient-to-b from-slate-900 to-slate-950 py-24 text-center px-6 relative overflow-hidden">
+        {/* Subtle Glare line */}
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+        
+        <div className="max-w-3xl mx-auto space-y-8 relative z-10">
+          <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
+            Ready to stop playing the old SEO game?
+          </h2>
+          <p className="text-xl text-slate-300 font-medium">
+            Let's get on a call. We will look at your current market share and see exactly how much revenue you are leaving on the table.
+          </p>
+          <div className="pt-4">
+            <a 
+              href="mailto:connect@sachinbhat.in" 
+              className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/25 border border-blue-400/30 hover:-translate-y-0.5"
+            >
+              <span>Book a Strategy Call</span>
+            </a>
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8 text-slate-400 text-sm font-medium">
+            <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-blue-500 drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]"/> Direct access to me</span>
+            <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-blue-500 drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]"/> No long-term lock-ins</span>
+            <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-blue-500 drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]"/> Transparent reporting</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-slate-950 py-8 text-center text-slate-500 text-sm border-t border-slate-900">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+          <p>© {new Date().getFullYear()} Sachin Bhat. All rights reserved.</p>
+          <div className="mt-4 md:mt-0 space-x-6">
+            <a href="mailto:connect@sachinbhat.in" className="hover:text-white transition-colors">connect@sachinbhat.in</a>
+            <a href="https://linkedin.com/" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="#" className="hover:text-white transition-colors">Twitter</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

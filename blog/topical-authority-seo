@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Topical Authority Is Important Today? | Sachin Bhat</title>
+  <meta name="description" content="Stop killing your SEO with broad keywords. Learn why pivoting to topical authority is necessary, and how to build a topical map for e-commerce.">
+  
+  <!-- SEO Indexing & Canonical (No trailing slash, clean URL) -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sachinbhat.in/blog/topical-authority-seo">
+  
+  <!-- Schema Markup (JSON-LD) for Article & FAQ -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sachinbhat.in/blog/topical-authority-seo"
+      },
+      "headline": "Why Topical Authority Is Important Today? (Stop Killing Your SEO With Broad Keywords)",
+      "description": "Stop killing your SEO with broad keywords. Learn why pivoting to topical authority is necessary, and how to build a topical map for e-commerce.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1600&h=800",  
+      "author": {
+        "@type": "Person",
+        "name": "Sachin Bhat",
+        "url": "https://sachinbhat.in/"
+      },  
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sachin Bhat",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sachinbhat.in/sachin-bhat.webp"
+        }
+      },
+      "datePublished": "2026-05-03"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I measure the success of my topical authority strategy if total organic traffic is a vanity metric?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You shift your focus from quantity to quality. Track Conversions and Attributed Revenue to see if deeper experiential posts are driving sales. Monitor Topic Share of Voice to see if you are gaining impressions for niche queries. Check Search Console Average Position for Topic to track a group of technical keywords within a pillar. Finally, track User Engagement to ensure lower bounce rates and longer time on site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a newer or smaller website with lower Domain Authority (DA) still build topical authority and outrank a massive competitor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. While industry giants must maintain authority across a broad range of topics, a newer, specialist site can dominate by achieving higher 'experiential depth' in a specific niche. By focusing your crawl budget only on what you are an absolute expert in, you can signal to Google's Helpful Content System that you are the more definitive, expert source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I have existing blogs. How do I audit my current content and transition to an authority-focused approach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with a 'Content Audit for Relevance.' Categorize posts by funnel depth and product relevance. Identify high-traffic posts with 95%+ bounce rates for potential pruning. Map out gaps in your experiential depth (BOFU content), and ensure your current posts are internally linked efficiently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can my small content team consistently source the 'experiential' (BOFU) content that builds real authority?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your team must transform into expert interviewers. Interview subject matter experts within your product, customer success, and sales teams. Create proprietary data or original research like surveys or platform data. Turn customer successes into detailed technical case studies focusing on execution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a specific internal linking structure that best communicates topical connections to search bots?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, use a Pillar-Cluster Structure. Build a central Pillar Page that links out to all supporting cluster pages. Use Spoke-to-Pillar Linking so every cluster page links back to the main Pillar. Finally, use Horizontal Linking to connect related cluster posts that make sense, like a case study linking to a decision-making guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What early, positive signals should I look for to know my topical authority strategy is working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Watch for Improved Indexing Speed for your new, deeply technical posts. Look for new rankings on highly specific, technical niche keywords. Monitor for Better Rankings on 'Competitive MOFU' terms (like software comparisons). Finally, track if other specialist sites and AI Overviews begin to cite your unique research."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
+  
+  <nav class="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
+    <div class="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
+      <div class="text-xl font-bold tracking-tight text-slate-800">
+        <a href="/">Sachin Bhat<span class="text-blue-600">.</span></a>
+      </div>
+      <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+        <a href="/#proof" class="hover:text-blue-600 transition-colors">Track Record</a>
+        <a href="/#approach" class="hover:text-blue-600 transition-colors">My Approach</a>
+        <a href="/#services" class="hover:text-blue-600 transition-colors">How We Work</a>
+        <a href="/blog" class="text-blue-600 transition-colors">Blogs</a>
+      </div>
+      <a href="/#contact" class="bg-gradient-to-b from-slate-800 to-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all shadow-md shadow-slate-900/10 border border-slate-700 hover:border-blue-500">
+        Let's Talk
+      </a>
+    </div>
+  </nav>
+
+  <header class="pt-20 pb-12 px-6 max-w-3xl mx-auto">
+    <div class="flex items-center space-x-2 text-sm text-blue-600 font-semibold mb-6">
+      <span class="bg-blue-100 px-3 py-1 rounded-full">E-commerce SEO</span>
+      <span class="text-slate-300">•</span>
+      <span class="text-slate-500 flex items-center gap-1.5"><i data-lucide="clock" class="w-4 h-4"></i> 6 min read</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-[1.15] tracking-tight text-slate-900 mb-6 drop-shadow-sm">
+      Why Topical Authority Is Important Today? (Stop Killing Your SEO With Broad Keywords)
+    </h1>
+    <p class="text-xl text-slate-600 leading-relaxed mb-8">
+      The era of the generalist giant is over. Search engines are no longer rewarding massive, broad websites; they are looking for deep, experiential topical authorities.
+    </p>
+    
+    <div class="flex items-center space-x-4 border-t border-slate-200 pt-6">
+      <div class="w-12 h-12 rounded-full overflow-hidden bg-slate-200 border border-slate-300">
+        <img src="/sachin-bhat.webp" alt="Sachin Bhat" class="w-full h-full object-cover grayscale">
+      </div>
+      <div>
+        <p class="font-bold text-slate-900 text-sm">Sachin Bhat</p>
+        <p class="text-slate-500 text-sm">E-commerce SEO & AEO Strategist • Published May 3, 2026</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="px-6 max-w-5xl mx-auto mb-16 relative">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-200 to-indigo-200/50 rounded-3xl transform translate-x-3 translate-y-3 -z-10 blur-[2px]"></div>
+    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1600&h=800" alt="Server network representing topical maps" class="w-full h-[400px] md:h-[500px] object-cover rounded-3xl shadow-xl shadow-slate-900/10 border border-white/40 grayscale"/>
+  </div>
+
+  <article class="px-6 pb-24 max-w-3xl mx-auto text-lg text-slate-700 leading-relaxed space-y-8">
+    
+    <p class="text-xl text-slate-800 leading-relaxed font-medium">
+      <span class="text-5xl font-bold text-slate-900 float-left mr-3 mt-[-8px] font-serif">F</span>or years, the standard SEO playbook was to find a high-volume keyword, write a blog post, and wait for the traffic. It rarely mattered if the topic actually related to your core business. As long as you had a strong Domain Authority (DA), you could rank for almost anything.
+    </p>
+
+    <p>That broad-net strategy is now an active liability. Search engines are no longer looking to reward massive, generalist websites; they are looking for topical authorities. If you are still basing your editorial calendar on search volume rather than building topical depth, your site is incredibly vulnerable.</p>
+
+    <p>Here is a look at why pivoting to topical authority is necessary, and how some of the biggest names in the industry learned this the hard way.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">The Cost of Irrelevant Traffic</h2>
+    
+    <p>Back in the mid-2010s, companies like HubSpot and ClickUp completely dominated search results by writing about practically everything. By publishing articles on famous quotes or shrug emojis, they captured millions of visitors who had absolutely zero intention of ever buying their software.</p>
+    
+    <p>When Google rolled out its Helpful Content System, that massive footprint backfired. High traffic on irrelevant topics went from being a vanity metric to a negative signal that actively diluted their perceived expertise.</p>
+
+    <p>According to data from SEMrush and Ahrefs, HubSpot’s blog saw a massive 75-80% decline in organic traffic over a two-year stretch. They dropped from roughly 24.4 million visits in March 2023 to 6.1 million by early 2025. In one brutal stretch between November and December 2024, they lost nearly 5 million visits in a single month as Google penalized their thin, off-topic content.</p>
+
+    <p>The drop was even more severe for ClickUp. Recent data shows a 97.6% traffic collapse, with their blog plummeting from 1.19 million monthly visits in January 2025 to under 29,000 by April 2026. The era of the generalist giant is effectively over.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Moving Past Surface-Level Content</h2>
+    
+    <p>To actually build authority, you have to stop thinking in terms of isolated keywords and start looking at information depth. You can't claim to be an expert if you only ever write beginner-level overviews.</p>
+    
+    <p>Most content marketers spend their time at the top of the funnel, the basic "What is [X]" articles. While these carry high search volume, they are incredibly saturated and highly vulnerable to being answered directly by AI overviews.</p>
+
+    <p>True authority is built further down the funnel. You need middle-of-the-funnel content that breaks down processes and comparisons to demonstrate your working logic. Even more importantly, you need bottom-of-the-funnel content. These are the highly technical, niche case studies and experiential posts that often boast zero search volume. Covering these deep, seemingly boring angles is exactly how you prove your E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) to search engines, proving you are an actual practitioner rather than a content farm.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">The Blueprint: Building Your Topical Map</h2>
+    
+    <p>Building a topical map isn't just throwing together a spreadsheet of ideas; it requires building a deliberate silo structure. Here is a straightforward framework to implement this for an e-commerce site.</p>
+    
+    <ul class="space-y-6 my-8 list-none pl-0">
+      <li class="flex items-start">
+        <i data-lucide="network" class="w-6 h-6 text-blue-500 mr-3 shrink-0 mt-1"></i>
+        <div>
+          <strong class="font-semibold text-slate-900 block text-xl mb-1">1. Identify Your Seed Pillars</strong>
+          <span>Start by picking three to five core themes that tie 100% directly to the products you sell. If you run an organic skincare brand, for instance, your pillars shouldn't be random beauty hacks. They need to be focused: Acne Treatment, Anti-Aging, and Sustainable Packaging.</span>
+        </div>
+      </li>
+      <li class="flex items-start">
+        <i data-lucide="git-branch" class="w-6 h-6 text-blue-500 mr-3 shrink-0 mt-1"></i>
+        <div>
+          <strong class="font-semibold text-slate-900 block text-xl mb-1">2. Expand the Branches</strong>
+          <span>For every pillar, build out 10 to 15 sub-topics that hit all three depth levels we discussed earlier.
+            <ul class="list-disc pl-5 mt-3 space-y-2 text-slate-600">
+              <li>At the top of the funnel, you might tackle broad questions like, "What causes hormonal acne?"</li>
+              <li>In the middle of the funnel, shift to comparisons, such as "Salicylic Acid vs. Benzoyl Peroxide: Which is better for sensitive skin?"</li>
+              <li>At the bottom of the funnel, get hyper-specific. Publish a detailed breakdown of how your specific serum formulation clears breakouts in 14 days. These bottom-tier posts might not have search volume, but they carry massive authority.</li>
+            </ul>
+          </span>
+        </div>
+      </li>
+      <li class="flex items-start">
+        <i data-lucide="link" class="w-6 h-6 text-blue-500 mr-3 shrink-0 mt-1"></i>
+        <div>
+          <strong class="font-semibold text-slate-900 block text-xl mb-1">3. Wire It Together (Hub-and-Spoke Linking)</strong>
+          <span>This is how you dictate the crawl path for search engine bots. You need a central pillar page, usually a long-form ultimate guide, that links out to every single sub-topic within that cluster. In turn, every one of those sub-topic spoke pages must link back to the main pillar. Finally, don't forget to link horizontally. If a middle-of-the-funnel comparison naturally leads to a bottom-of-the-funnel product deep dive, connect them.</span>
+        </div>
+      </li>
+    </ul>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">How Depth Improves Crawl Efficiency</h2>
+    
+    <p>Writing deep, tightly clustered content doesn't just look good to users; it fundamentally changes how search bots interact with your site.</p>
+    
+    <p>In Google’s official documentation on Crawl Budget, they outline that crawling is limited by demand. Google Analyst Gary Illyes has even pointed out that a drop in search demand correlates directly to a drop in your crawl limit.</p>
+
+    <p>When you build out a tight cluster of introductory, intermediate, and advanced content and weave them together with the hub-and-spoke method, you create a clear semantic map. This guides Googlebot through your most important pages, ensuring faster discovery and more frequent indexing. When Google sees that you’ve covered a specific niche from 50 different angles, it triggers the "Topic Authority" signal—a metric officially announced by Google in May 2023—which marks your site as a trusted voice in that specific domain.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Surviving the AI Content Flood</h2>
+    
+    <p>With Generative AI flooding the internet with surface-level summaries, topical authority is your only real moat. AI overviews are designed to scrape the web for unique, expert insights to cite. They aren't going to pull from the thousandth generic guide; they are going to pull from the site that published a unique product breakdown or an undocumented workaround.</p>
+    
+    <p>Furthermore, search engines are actively trying to optimize the massive computing costs associated with crawling and indexing. If your content is disjointed and random, crawling it is a waste of their resources. If your site is authoritative, focused, and well-linked, it becomes a priority.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Rethinking Your Content Strategy: The Audit & Prune Protocol</h2>
+    
+    <p>Going forward, every piece of content needs to justify its existence on your site. Traffic is ultimately just a number on a dashboard; authority is a defensible business asset.</p>
+    
+    <p>Make it a habit to look at your traffic every six months. If you have older, broad blogs that are pulling in visits but suffer from a 95% bounce rate and zero conversions, it is time to de-index or prune them. They are consuming your crawl budget and actively diluting your authority score. HubSpot themselves eventually pruned over 3,000 outdated posts to protect their overall site authority.</p>
+
+    <p>Make sure every broad topic you cover is supported by deeper, highly specific secondary posts, and link them aggressively. By shifting your focus toward topical depth and routinely auditing your archives, you build a brand footprint that algorithm updates and AI summaries can't easily wash away.</p>
+
+    <!-- FAQ Accordion Section -->
+    <section class="mt-16 pt-12 border-t border-slate-200">
+      <h2 class="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Frequently Asked Questions About Topical Authority</h2>
+      
+      <div class="space-y-4">
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            How do I measure the success of my topical authority strategy if total organic traffic is a vanity metric?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base space-y-3">
+            <p>You shift your focus from quantity to quality. Success is not defined by 10 million random visitors; it’s defined by business impact from relevant visitors. Track these metrics instead:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li><strong>Conversions and Attributed Revenue:</strong> Are these deeper experiential posts directly driving leads or sales?</li>
+              <li><strong>Topic Share of Voice:</strong> Are you gaining more impressions and rankings for niche, specific queries within your core clusters?</li>
+              <li><strong>Search Console Average Position:</strong> Are you consistently moving up for an entire cluster of technical and comparison keywords?</li>
+              <li><strong>User Engagement:</strong> Are users from these deeper posts staying on the site longer and demonstrating a lower bounce rate?</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Can a newer or smaller website with lower Domain Authority (DA) outrank a massive competitor?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>Absolutely. While industry giants must maintain authority across a broad range of topics, a newer, specialist site can dominate by achieving higher "experiential depth" in a specific niche. While a giant's topical cluster might be 50 general posts, your cluster can be 20 highly technical case studies and complex process break-downs. By focusing your crawl budget only on what you are an absolute expert in, you signal to Google that you are the definitive source.</p>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            I have existing blogs. How do I audit my current content and transition to an authority approach?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base space-y-3">
+            <p>Start with a "Content Audit for Relevance" by categorizing posts by funnel depth and product relevance:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>Identify high-traffic posts with 95%+ bounce rates. These are negative signals and prime candidates for content pruning or de-indexing.</li>
+              <li>Find the gaps in your experiential depth (BOFU posts) to create a roadmap for technical case studies.</li>
+              <li>Ensure your current posts are internally linked efficiently, moving horizontally and vertically across the topic hierarchy.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            How can a small team consistently source BOFU content with zero search volume?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base space-y-3">
+            <p>Your team must transform from content creators into expert interviewers. Original depth cannot be invented; it must be extracted:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>Interview subject matter experts (SMEs) to capture unique technical insights and real-world results.</li>
+              <li>Create proprietary data or original research like surveys or anonymized platform tests.</li>
+              <li>Turn customer successes into detailed, anonymous technical case studies focusing on the exact process executed.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Is there a specific internal linking structure that best communicates topical connections?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base space-y-3">
+            <p>Yes, the internal links must create a clear hierarchical semantic map:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li><strong>Pillar-Cluster Structure:</strong> Build a central Pillar Page that acts as a definitive overview and links out to all supporting cluster pages.</li>
+              <li><strong>Spoke-to-Pillar Linking:</strong> Every deeper cluster page must link back up to the main Pillar to send authority signals upward.</li>
+              <li><strong>Horizontal Linking:</strong> Link related cluster posts together (e.g., linking a specific technical case study directly to its related comparison guide).</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            What early, positive signals show my topical authority strategy is working?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4"><i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i></span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base space-y-3">
+            <p>You won't instantly see a traffic spike. Instead, watch for early signals of crawling and indexing confidence:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li><strong>Improved Indexing Speed:</strong> Your deeply technical posts get discovered and indexed faster than generic ones.</li>
+              <li><strong>Ranking for Niche Keywords:</strong> You start appearing for specific error codes or integration technicalities.</li>
+              <li><strong>Better Competitive MOFU Rankings:</strong> Your comparison guides move up against massive generalist sites.</li>
+              <li><strong>Citations and Mentions:</strong> Other specialist sites and AI Overviews begin citing your unique E-E-A-T nuggets.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+  </article>
+
+  <section class="bg-gradient-to-b from-slate-900 to-slate-950 py-24 text-center px-6 relative overflow-hidden border-t border-slate-800">
+    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+    <div class="max-w-3xl mx-auto space-y-8 relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
+        Stop letting bad architecture drain your e-commerce revenue.
+      </h2>
+      <p class="text-xl text-slate-300 font-medium">
+        Let's get on a call. We will map your current topical gaps and see exactly how much market share you are losing to generic competitors.
+      </p>
+      <div class="pt-4">
+        <a href="mailto:bsachin25@gmail.com" class="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/25 border border-blue-400/30 hover:-translate-y-0.5">
+          <span>Book a Strategy Call</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 py-8 text-center text-slate-500 text-sm border-t border-slate-900">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>© 2026 Sachin Bhat. All rights reserved.</p>
+      <div class="mt-4 md:mt-0 space-x-6">
+        <a href="mailto:bsachin25@gmail.com" class="hover:text-white transition-colors">bsachin25@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sachinbhatwriter/" class="hover:text-white transition-colors">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

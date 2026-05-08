@@ -30,4 +30,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://sachinbhat.in/seo-aeo-faqs</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

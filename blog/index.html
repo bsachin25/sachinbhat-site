@@ -72,25 +72,68 @@
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
   
-  <!-- Navigation - Made sticky with glassmorphism -->
-  <nav class="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
+ <nav class="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
     <div class="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
+      
       <div class="text-xl font-bold tracking-tight text-slate-800">
         <a href="/">Sachin Bhat<span class="text-blue-600">.</span></a>
       </div>
+      
       <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
         <a href="/services" class="hover:text-blue-600 transition-colors">Services</a>
         <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors">FAQs</a>
-        <a href="/blog" class="text-blue-600 transition-colors">Blogs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors">Blogs</a>
       </div>
-      <a 
-        href="/#contact" 
-        class="bg-gradient-to-b from-slate-800 to-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all shadow-md shadow-slate-900/10 border border-slate-700 hover:border-blue-500"
-      >
-        Let's Talk
-      </a>
+
+      <div class="flex items-center gap-4">
+        <a href="/#contact" class="hidden sm:inline-flex bg-gradient-to-b from-slate-800 to-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all shadow-md shadow-slate-900/10 border border-slate-700 hover:border-blue-500">
+          Let's Talk
+        </a>
+
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600 hover:text-blue-600 focus:outline-none">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-50/95 backdrop-blur-lg border-t border-slate-200/50 absolute w-full shadow-xl">
+      <div class="flex flex-col px-6 py-6 space-y-5 text-base font-medium text-slate-600">
+        <a href="/services" class="hover:text-blue-600 transition-colors mobile-link">Services</a>
+        <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors mobile-link">FAQs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors mobile-link">Blogs</a>
+        <a href="/#contact" class="inline-block text-center bg-slate-800 text-white px-5 py-3 rounded-xl text-sm font-bold hover:bg-slate-700 transition-all w-full mt-2 mobile-link">
+          Let's Talk
+        </a>
+      </div>
     </div>
   </nav>
+
+  <script>
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const icon = document.getElementById('menu-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    // Toggle menu open/close
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      if (menu.classList.contains('hidden')) {
+        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16'); // Hamburger icon
+      } else {
+        icon.setAttribute('d', 'M6 18L18 6M6 6l12 12'); // X close icon
+      }
+    });
+
+    // Close menu when a link is clicked
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.add('hidden');
+        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+      });
+    });
+  </script>
 
   <!-- Blog Header -->
   <header class="px-6 py-16 md:py-24 max-w-4xl mx-auto text-center relative z-10">

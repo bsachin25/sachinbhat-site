@@ -3,27 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SEO Services & Portfolio | Sachin Bhat</title>
-  <meta name="description" content="I specialize in driving organic growth for eCommerce brands through data-driven SEO, technical optimization, and localized content strategies.">
+  <title>eCommerce SEO &amp; AEO Services | Sachin Bhat</title>
+  <meta name="description" content="SEO and AEO services for eCommerce brands: eCommerce SEO, product description writing, SEO blog writing, technical SEO, keyword research, and AI search visibility (AEO and GEO).">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://sachinbhat.in/services">
-  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "eCommerce SEO and AEO services",
+    "provider": {
+      "@type": "Person",
+      "name": "Sachin Bhat",
+      "jobTitle": "SEO & Generative Search Consultant",
+      "url": "https://sachinbhat.in/",
+      "sameAs": ["https://www.linkedin.com/in/sachinbhatseo/"]
+    },
+    "areaServed": ["India", "United States", "United Kingdom", "United Arab Emirates", "Canada", "Australia"],
+    "description": "SEO and AEO services for eCommerce brands, including eCommerce SEO, product description writing, SEO blog writing, technical SEO, keyword research and AI search visibility.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "eCommerce SEO and AEO services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "eCommerce SEO"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AEO (Answer Engine Optimization)"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Product Description Writing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Category Page Optimization"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SEO Blog Writing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Keyword Research and Strategy"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Technical SEO"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "International SEO"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "On-Page and Design Recommendations for SEO"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Topical Authority and Content Clusters"}}
+      ]
+    }
+  }
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
-  
+
   <nav class="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
     <div class="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
-      
+
       <div class="text-xl font-bold tracking-tight text-slate-800">
         <a href="/">Sachin Bhat<span class="text-blue-600">.</span></a>
       </div>
-      
+
       <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
         <a href="/services" class="hover:text-blue-600 transition-colors">Services</a>
         <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors">FAQs</a>
-        <a href="/blog" class="hover:text-blue-600 transition-colors">Blogs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors">Blog</a>
       </div>
 
       <div class="flex items-center gap-4">
@@ -31,7 +64,7 @@
           Let's Talk
         </a>
 
-        <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600 hover:text-blue-600 focus:outline-none">
+        <button id="mobile-menu-btn" aria-label="Open menu" class="md:hidden p-2 text-slate-600 hover:text-blue-600 focus:outline-none">
           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
@@ -43,7 +76,7 @@
       <div class="flex flex-col px-6 py-6 space-y-5 text-base font-medium text-slate-600">
         <a href="/services" class="hover:text-blue-600 transition-colors mobile-link">Services</a>
         <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors mobile-link">FAQs</a>
-        <a href="/blog" class="hover:text-blue-600 transition-colors mobile-link">Blogs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors mobile-link">Blog</a>
         <a href="/#contact" class="inline-block text-center bg-slate-800 text-white px-5 py-3 rounded-xl text-sm font-bold hover:bg-slate-700 transition-all w-full mt-2 mobile-link">
           Let's Talk
         </a>
@@ -57,17 +90,15 @@
     const icon = document.getElementById('menu-icon');
     const mobileLinks = document.querySelectorAll('.mobile-link');
 
-    // Toggle menu open/close
     btn.addEventListener('click', () => {
       menu.classList.toggle('hidden');
       if (menu.classList.contains('hidden')) {
-        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16'); // Hamburger icon
+        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
       } else {
-        icon.setAttribute('d', 'M6 18L18 6M6 6l12 12'); // X close icon
+        icon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
       }
     });
 
-    // Close menu when a link is clicked
     mobileLinks.forEach(link => {
       link.addEventListener('click', () => {
         menu.classList.add('hidden');
@@ -79,194 +110,119 @@
   <header class="pt-20 pb-12 px-6 max-w-4xl mx-auto text-center">
     <div class="inline-flex items-center space-x-2 text-sm text-blue-600 font-semibold mb-6 bg-blue-100 px-4 py-1.5 rounded-full">
       <i data-lucide="briefcase" class="w-4 h-4"></i>
-      <span>What I Do</span>
+      <span>Services</span>
     </div>
     <h1 class="text-4xl md:text-6xl font-extrabold leading-[1.15] tracking-tight text-slate-900 mb-6 drop-shadow-sm">
-      Specialized eCommerce SEO & Content Strategy
+      eCommerce SEO &amp; AEO services
     </h1>
     <p class="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
-      I drive organic growth for highly complex, multi-regional eCommerce brands. From 0-to-1 heritage brand launches to technical architecture for 100,000+ SKU catalogs, I build search engines into steady streams of sales.
+      I help eCommerce brands get found on Google and in AI answers. Below are the services I offer, from product description writing and SEO blog content to technical SEO and AI search visibility. Most clients start with one or two of these, based on what their store needs first.
     </p>
   </header>
 
-  <main class="px-6 pb-24 max-w-5xl mx-auto space-y-24">
+  <main class="px-6 pb-24 max-w-5xl mx-auto">
 
     <section>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        
-        <div class="bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
           <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
-            <i data-lucide="globe-2" class="w-6 h-6"></i>
+            <i data-lucide="search" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">Global & Localized SEO</h3>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">eCommerce SEO</h2>
           <p class="text-slate-600 leading-relaxed">
-            Developing region-specific SEO strategies for international markets. I orchestrate content localization, GEO (Generative Engine Optimization) strategies, and Google Merchant Center optimization for core retail categories across the USA, UK, and the Middle East.
+            End-to-end SEO for online stores, covering product pages, category pages and the overall site structure, so your store ranks for the terms that bring buyers.
           </p>
         </div>
 
-        <div class="bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
           <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
-            <i data-lucide="code-2" class="w-6 h-6"></i>
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">Technical SEO & Architecture</h3>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">AEO (Answer Engine Optimization)</h2>
           <p class="text-slate-600 leading-relaxed">
-            Leading technical audits and collaborating directly with developers. Whether it is a custom-built CMS or Shopify, I focus on crawl efficiency, fixing Core Web Vitals, category hierarchy, and proactively resolving technical debt to ensure flawless indexation.
+            Structuring your content so AI tools like ChatGPT, Claude and Google AI Overviews can understand it, quote it and mention your brand in their answers.
           </p>
         </div>
 
-        <div class="bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="package" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Product Description Writing</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Original, SEO-friendly product descriptions that help pages rank and give shoppers the details they need to buy.
+          </p>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="layout-grid" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Category Page Optimization</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Making your category and collection pages rank with clear copy, the right keywords, clean structure and internal links, since these are often your highest-value pages.
+          </p>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
           <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
             <i data-lucide="pen-tool" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">Full-Funnel Content Production</h3>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">SEO Blog Writing</h2>
           <p class="text-slate-600 leading-relaxed">
-            Crafting buyer-focused, regulatory-compliant content that ranks. From highly technical financial (YMYL) content to immersive product descriptions and category pages for 100,000+ SKU retailers, I turn blogs and product pages into primary revenue drivers.
+            Blog content planned around buyer intent and built into topic clusters, so your store attracts the right readers and builds authority in your niche.
           </p>
         </div>
 
-        <div class="bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
           <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
-            <i data-lucide="rocket" class="w-6 h-6"></i>
+            <i data-lucide="key-round" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">"0 to 1" Digital Launches</h3>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Keyword Research &amp; Strategy</h2>
           <p class="text-slate-600 leading-relaxed">
-            Transitioning established offline heritage brands into digital powerhouses. I handle the end-to-end SEO launch—establishing topical authority from scratch, building AI automation suites for content scaling, and mapping out long-term growth pipelines.
+            Finding the keywords your buyers actually use and turning them into a clear content and page plan, so effort goes where it brings sales.
           </p>
         </div>
 
-      </div>
-    </section>
-
-    <section class="border-t border-slate-200 pt-16">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-4">Current Projects & Engagements</h2>
-        <p class="text-lg text-slate-500 max-w-2xl mx-auto">A detailed overview of my active client portfolio, demonstrating the application of high-level SEO and content strategies across diverse global markets.</p>
-      </div>
-
-      <div class="space-y-12">
-        
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -z-0"></div>
-          <div class="relative z-10">
-            <div class="flex flex-col md:flex-row md:items-start justify-between gap-6 mb-6">
-              <div>
-                <h3 class="text-2xl font-bold text-slate-900">The Desi Food</h3>
-                <p class="text-blue-600 font-medium">Global Indian eCommerce • thedesifood.com</p>
-              </div>
-              <div class="bg-slate-100 px-4 py-2 rounded-lg text-sm font-medium text-slate-700 whitespace-nowrap">
-                Scale: 25,000+ Products
-              </div>
-            </div>
-            
-            <p class="text-slate-600 mb-6"><strong>Role:</strong> SEO GEO Strategy & Global Market Localization (USA, UK, Middle East)</p>
-            
-            <ul class="space-y-3 list-none pl-0 text-slate-700">
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Localized SEO:</strong> Developing region-specific SEO strategies for core categories: Groceries, Ayurveda, Beauty, and Fashion.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Custom CMS Optimization:</strong> Managing SEO for a custom-built architecture, focusing heavily on crawl efficiency and category hierarchy.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>AI Automation:</strong> Currently building a suite of custom AI agents designed to streamline high-volume content production while maintaining strict SEO integrity.</span>
-              </li>
-            </ul>
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="code-2" class="w-6 h-6"></i>
           </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Technical SEO</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Site audits and fixes for indexing, crawl issues, site speed, Core Web Vitals, sitemaps and schema, worked through together with your developer.
+          </p>
         </div>
 
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-32 h-32 bg-amber-50 rounded-bl-full -z-0"></div>
-          <div class="relative z-10">
-            <div class="flex flex-col md:flex-row md:items-start justify-between gap-6 mb-6">
-              <div>
-                <h3 class="text-2xl font-bold text-slate-900">Jiya Gold Palace</h3>
-                <p class="text-blue-600 font-medium">Heritage Jewellery Brand • jiyagoldpalace.com</p>
-              </div>
-              <div class="bg-slate-100 px-4 py-2 rounded-lg text-sm font-medium text-slate-700 whitespace-nowrap">
-                Platform: Shopify
-              </div>
-            </div>
-            
-            <p class="text-slate-600 mb-6"><strong>Role:</strong> End-to-End SEO & GEO (Generative Engine Optimization)</p>
-            
-            <ul class="space-y-3 list-none pl-0 text-slate-700">
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Growth Strategy:</strong> Orchestrating the "0 to 1" digital launch, establishing the brand’s online authority from scratch after operating offline since 1987.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Technical & Shopping SEO:</strong> Conducting thorough technical audits and optimizing Google Merchant Center (GMC) for enhanced product visibility.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Full-Funnel Content:</strong> Creating comprehensive content for blogs, product pages, and category descriptions to drive both top-of-funnel traffic and conversions.</span>
-              </li>
-            </ul>
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="network" class="w-6 h-6"></i>
           </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Topical Authority &amp; Content Clusters</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Building topic maps and well-linked content clusters that help search engines and AI tools see your brand as an expert in your category.
+          </p>
         </div>
 
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-bl-full -z-0"></div>
-          <div class="relative z-10">
-            <div class="flex flex-col md:flex-row md:items-start justify-between gap-6 mb-6">
-              <div>
-                <h3 class="text-2xl font-bold text-slate-900">Major FinTech App</h3>
-                <p class="text-blue-600 font-medium">Digital Payments • UAE (Name withheld due to NDA)</p>
-              </div>
-              <div class="bg-slate-100 px-4 py-2 rounded-lg text-sm font-medium text-slate-700 whitespace-nowrap">
-                Audience: UAE Expats
-              </div>
-            </div>
-            
-            <p class="text-slate-600 mb-6"><strong>Role:</strong> SEO Consultant & Technical Support</p>
-            
-            <ul class="space-y-3 list-none pl-0 text-slate-700">
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Regulatory Alignment:</strong> Developing highly-vetted content strategies that adhere to strict financial compliance and legal guidelines (YMYL standards).</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Developer Collaboration:</strong> Leading technical SEO audits and sharing actionable code enhancements to optimize Core Web Vitals and fix indexation blockers.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Performance Tracking:</strong> Monitoring Google Search Console to proactively resolve technical debt and maintain dominant search visibility.</span>
-              </li>
-            </ul>
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="layout-dashboard" class="w-6 h-6"></i>
           </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">On-Page &amp; Design Suggestions for SEO</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Practical suggestions on page layout, structure, headings and internal linking that make a page easier to rank and use. This is guidance for your designer or developer, not a website design service.
+          </p>
         </div>
 
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-50 rounded-bl-full -z-0"></div>
-          <div class="relative z-10">
-            <div class="flex flex-col md:flex-row md:items-start justify-between gap-6 mb-6">
-              <div>
-                <h3 class="text-2xl font-bold text-slate-900">Major Agency Portfolio</h3>
-                <p class="text-blue-600 font-medium">US eCommerce Brands (Names withheld due to NDA)</p>
-              </div>
-              <div class="bg-slate-100 px-4 py-2 rounded-lg text-sm font-medium text-slate-700 whitespace-nowrap">
-                Scale: 100,000+ SKUs
-              </div>
-            </div>
-            
-            <p class="text-slate-600 mb-6"><strong>Role:</strong> SEO Content Strategist & Writer</p>
-            
-            <ul class="space-y-3 list-none pl-0 text-slate-700">
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Industry Expertise:</strong> Producing SEO-driven content for diverse, high-SKU retailers across Home & Garden (décor), Beauty (cosmetics), Automotive, and Luxury Furniture.</span>
-              </li>
-              <li class="flex items-start">
-                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"></i>
-                <span><strong>Revenue Impact:</strong> Authored multiple top-performing pages that currently serve as the primary organic traffic and revenue drivers for these massive brands.</span>
-              </li>
-            </ul>
+        <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/50">
+          <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+            <i data-lucide="globe-2" class="w-6 h-6"></i>
           </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">International SEO</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Geo-targeted SEO for stores selling across countries like India, the USA, the UK and the UAE, with correct hreflang setup and content planned for each market's search habits.
+          </p>
         </div>
 
       </div>
@@ -274,18 +230,18 @@
 
   </main>
 
-  <section class="bg-gradient-to-b from-slate-900 to-slate-950 py-24 text-center px-6 relative overflow-hidden border-t border-slate-800">
+  <section id="contact" class="bg-gradient-to-b from-slate-900 to-slate-950 py-24 text-center px-6 relative overflow-hidden border-t border-slate-800">
     <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
     <div class="max-w-3xl mx-auto space-y-8 relative z-10">
       <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
-        Ready to scale your organic revenue?
+        Let's talk about your website.
       </h2>
       <p class="text-xl text-slate-300 font-medium">
-        Whether you are a new brand launching your catalog or an established enterprise untangling technical debt, let's map out your growth.
+        Whether you are launching a new store or sorting out an existing one, send me your website and a line about your goals. I will share where I think SEO can help, and what to focus on first.
       </p>
       <div class="pt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="mailto:bsachin25@gmail.com" class="inline-flex w-full sm:w-auto items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/25 border border-blue-400/30 hover:-translate-y-0.5">
-          <span>Get in touch with me</span>
+        <a href="mailto:bsachin25@gmail.com?subject=SEO%20enquiry" class="inline-flex w-full sm:w-auto items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/25 border border-blue-400/30 hover:-translate-y-0.5">
+          <span>Get in touch</span>
         </a>
       </div>
     </div>
@@ -296,7 +252,7 @@
       <p>© 2026 Sachin Bhat. All rights reserved.</p>
       <div class="mt-4 md:mt-0 space-x-6">
         <a href="mailto:bsachin25@gmail.com" class="hover:text-white transition-colors">bsachin25@gmail.com</a>
-        <a href="https://www.linkedin.com/in/sachinbhatwriter/" class="hover:text-white transition-colors">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/sachinbhatseo/" target="_blank" rel="noopener" class="hover:text-white transition-colors">LinkedIn</a>
       </div>
     </div>
   </footer>

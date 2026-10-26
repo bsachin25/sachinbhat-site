@@ -30,6 +30,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Blog Post: How Long Does SEO Take -->
+  <url>
+    <loc>https://sachinbhat.in/blog/how-long-does-seo-take</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- FAQ Page -->
   <url>
     <loc>https://sachinbhat.in/seo-aeo-faqs</loc>

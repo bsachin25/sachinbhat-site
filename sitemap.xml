@@ -37,6 +37,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Blog Post: Do You Still Need a Blog -->
+  <url>
+    <loc>https://sachinbhat.in/blog/do-you-still-need-a-blog</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- FAQ Page -->
   <url>
     <loc>https://sachinbhat.in/seo-aeo-faqs</loc>

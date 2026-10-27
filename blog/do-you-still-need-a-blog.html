@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Still Need a Blog in 2026? | Sachin Bhat</title>
+  <meta name="description" content="Yes, but not for the reason blogs were written ten years ago. What the citation research shows about why blogs still matter, and why they matter most for new websites.">
+
+  <!-- SEO Indexing & Canonical -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sachinbhat.in/blog/do-you-still-need-a-blog">
+
+  <!-- Schema Markup (JSON-LD) for Article & FAQ -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sachinbhat.in/blog/do-you-still-need-a-blog"
+      },
+      "headline": "Do You Still Need a Blog in 2026?",
+      "description": "Yes, but not for the reason blogs were written ten years ago. What the citation research shows about why blogs still matter, and why they matter most for new websites.",
+      "author": {
+        "@type": "Person",
+        "name": "Sachin Bhat",
+        "url": "https://sachinbhat.in/",
+        "sameAs": ["https://www.linkedin.com/in/sachinbhatseo/"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sachin Bhat",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sachinbhat.in/sachin-bhat.webp"
+        }
+      },
+      "datePublished": "2026-10-27"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is blogging dead in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, but its job has changed. Blogs no longer reliably bring traffic for informational topics, because AI answers absorb those clicks. They now work as a way to get cited and keep a brand present in answers, which matters most for newer sites with little authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do blogs still bring traffic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Less than before, and it depends on the topic. Simple factual and definitional posts lose the most, since the answer appears above the results. Posts on specific, narrow questions where someone needs detail still earn clicks, and comparison and decision content has held up better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many blog posts does a new website need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed number, and the count matters less than coverage. It is more useful to think in terms of answering each important question properly, three levels deep, than publishing to a monthly target. Four thorough posts will usually outperform ten thin ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do AI tools steal content from blogs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They summarise it, and that does reduce clicks. Pew Research found users clicked a result in 8% of visits when an AI summary appeared, against 15% without. The trade is that being cited puts you in front of people who would never have found your site in the results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a small business write blogs or focus on service pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Service pages first, since that is where enquiries come from. Blogs come next, and they are what make the service pages findable. A service page alone answers very few questions. A blog can answer the hundred specific ones people actually ask."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <!-- Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Load Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
+
+ <nav class="sticky top-0 z-50 bg-slate-50/80 backdrop-blur-lg border-b border-slate-200/50 transition-all">
+    <div class="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
+
+      <div class="text-xl font-bold tracking-tight text-slate-800">
+        <a href="/">Sachin Bhat<span class="text-blue-600">.</span></a>
+      </div>
+
+      <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+        <a href="/services" class="hover:text-blue-600 transition-colors">Services</a>
+        <a href="/portfolio" class="hover:text-blue-600 transition-colors">Work</a>
+        <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors">FAQs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors">Blog</a>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="/#contact" class="hidden sm:inline-flex bg-gradient-to-b from-slate-800 to-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all shadow-md shadow-slate-900/10 border border-slate-700 hover:border-blue-500">
+          Let's Talk
+        </a>
+
+        <button id="mobile-menu-btn" aria-label="Open menu" class="md:hidden p-2 text-slate-600 hover:text-blue-600 focus:outline-none">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-50/95 backdrop-blur-lg border-t border-slate-200/50 absolute w-full shadow-xl">
+      <div class="flex flex-col px-6 py-6 space-y-5 text-base font-medium text-slate-600">
+        <a href="/services" class="hover:text-blue-600 transition-colors mobile-link">Services</a>
+        <a href="/portfolio" class="hover:text-blue-600 transition-colors mobile-link">Work</a>
+        <a href="/seo-aeo-faqs" class="hover:text-blue-600 transition-colors mobile-link">FAQs</a>
+        <a href="/blog" class="hover:text-blue-600 transition-colors mobile-link">Blog</a>
+        <a href="/#contact" class="inline-block text-center bg-slate-800 text-white px-5 py-3 rounded-xl text-sm font-bold hover:bg-slate-700 transition-all w-full mt-2 mobile-link">
+          Let's Talk
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const icon = document.getElementById('menu-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      if (menu.classList.contains('hidden')) {
+        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+      } else {
+        icon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+      }
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.add('hidden');
+        icon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+      });
+    });
+  </script>
+
+  <!-- Article Header -->
+  <header class="pt-20 pb-12 px-6 max-w-3xl mx-auto">
+    <div class="flex items-center space-x-2 text-sm text-blue-600 font-semibold mb-6">
+      <span class="bg-blue-100 px-3 py-1 rounded-full">Content Strategy</span>
+      <span class="text-slate-300">•</span>
+      <span class="text-slate-500 flex items-center gap-1.5"><i data-lucide="clock" class="w-4 h-4"></i> 9 min read</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-[1.15] tracking-tight text-slate-900 mb-6 drop-shadow-sm">
+      Do you still need a blog in 2026?
+    </h1>
+    <p class="text-xl text-slate-600 leading-relaxed mb-8">
+      What the citation research actually shows about blogging after AI answers, and why the answer is different depending on how old your website is.
+    </p>
+
+    <!-- Author Block -->
+    <div class="flex items-center space-x-4 border-t border-slate-200 pt-6">
+      <div class="w-12 h-12 rounded-full overflow-hidden bg-slate-200 border border-slate-300">
+        <img src="/sachin-bhat.webp" alt="Sachin Bhat" class="w-full h-full object-cover grayscale">
+      </div>
+      <div>
+        <p class="font-bold text-slate-900 text-sm">Sachin Bhat</p>
+        <p class="text-slate-500 text-sm">SEO &amp; AEO Strategist • Published Oct 27, 2026</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article Body -->
+  <article class="px-6 pb-24 max-w-3xl mx-auto text-lg text-slate-700 leading-relaxed space-y-8">
+
+    <!-- Answer-first block -->
+    <div class="bg-blue-50/60 border-l-4 border-blue-500 p-8 rounded-r-2xl">
+      <p class="text-xl text-slate-800 leading-relaxed font-medium">
+        Yes, but not for the reason blogs were written ten years ago. Blogs no longer work as a traffic channel for most informational topics, because AI answers absorb those clicks. What they do now is make a site quotable, which is how a new site with little authority gets in front of people at all. For an established business with strong commercial pages, a blog is a visibility layer rather than a traffic source.
+      </p>
+    </div>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">What blogs were for, and how that kept changing</h2>
+
+    <p>The question comes up every few years, and the honest answer has been different each time. It helps to see why.</p>
+
+    <p><strong class="font-semibold text-slate-900">Blogs started as personal writing, before search mattered.</strong> Justin Hall's site dates from 1994. The word weblog was coined in 1997. Blogger launched in 1999. Google itself was only founded in 1998. People wrote because they wanted to say something, and being found was not really the point.</p>
+
+    <p><strong class="font-semibold text-slate-900">Then search changed what a blog was for.</strong> People stopped searching only for websites and started searching for answers to their problems. Whoever had written a good answer started ranking for it. That is the moment blogs turned into a traffic channel, and for about fifteen years it worked extremely well.</p>
+
+    <p><strong class="font-semibold text-slate-900">Then came the keyword era.</strong> Keyword density, primary and secondary keywords, long tail variations, and a long list of things people measured because they could be measured.</p>
+
+    <p><strong class="font-semibold text-slate-900">Then businesses moved budget away from blogs.</strong> Services companies and SaaS products noticed that blog readers rarely bought anything. Effort shifted to service pages, feature pages, comparison pages and landing pages, the pages where the decision actually happens. For a lot of companies this was the correct call, and it is still correct.</p>
+
+    <p>So by the time AI answers arrived, blogs had already lost their place at many companies. What happened next looked, at first, like the end of the argument.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Why people decided blogs were finished</h2>
+
+    <p>When AI Overviews arrived, the first reaction was that AI was taking content from blogs and showing it without sending anyone back. That reaction was not unreasonable, and the data supports the traffic part of it.</p>
+
+    <ul class="space-y-4 my-8 list-disc pl-6 marker:text-blue-500">
+      <li class="pl-1"><a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">Pew Research</a> found users clicked a traditional search result in 8% of visits when an AI summary was shown, against 15% when it was not.</li>
+      <li class="pl-1">Around a quarter of Google searches triggered an AI Overview in the first quarter of 2026.</li>
+      <li class="pl-1">The pages that lost most were the ones answering simple factual questions: definitions, dates, single facts, quick how-to steps.</li>
+    </ul>
+
+    <p>This part should be said plainly rather than argued with. If your blog existed to catch short informational searches, that traffic is going and it is not coming back. A post titled "what is X" competing against an answer that appears above it, written for someone who only wanted one sentence, has lost its reason to exist.</p>
+
+    <p>The mistake is concluding from this that blogs no longer do anything.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">What the citation data actually shows</h2>
+
+    <p>Two findings changed the picture.</p>
+
+    <p><strong class="font-semibold text-slate-900">Being cited no longer requires ranking.</strong> <a href="https://news.designrush.com/ai-overview-citations-drop-ahrefs" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">Ahrefs</a> looked at 863,000 keywords and 4 million AI Overview URLs and found only 38% of pages cited in AI Overviews also rank in the top 10 for that query. A year earlier the same study put it at 76%. So a page can be quoted in an answer while sitting well down the results.</p>
+
+    <p><strong class="font-semibold text-slate-900">Better content helps smaller sites more than large ones.</strong> This comes from academic work rather than a tool vendor. The <a href="https://thegeocommunity.com/blogs/generative-engine-optimization/geo-princeton-paper-original-study/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">GEO paper</a> from Princeton and IIT Delhi, presented at KDD 2024, tested 10,000 queries across 25 domains to see which changes to a page increased how much of it got used in generated answers.</p>
+
+    <p>What worked:</p>
+
+    <div class="overflow-x-auto my-8">
+      <table class="w-full text-base border border-slate-200 rounded-2xl overflow-hidden bg-white">
+        <thead class="bg-slate-100 text-slate-900">
+          <tr>
+            <th class="text-left font-bold px-5 py-3 border-b border-slate-200">Change to the page</th>
+            <th class="text-left font-bold px-5 py-3 border-b border-slate-200">Visibility gain</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-700">
+          <tr><td class="px-5 py-3 border-b border-slate-100">Citing sources</td><td class="px-5 py-3 border-b border-slate-100">30 to 40%</td></tr>
+          <tr><td class="px-5 py-3 border-b border-slate-100">Adding quotations</td><td class="px-5 py-3 border-b border-slate-100">30 to 40%</td></tr>
+          <tr><td class="px-5 py-3 border-b border-slate-100">Adding statistics</td><td class="px-5 py-3 border-b border-slate-100">30 to 40%</td></tr>
+          <tr><td class="px-5 py-3 border-b border-slate-100">Clearer, more readable writing</td><td class="px-5 py-3 border-b border-slate-100">15 to 30%</td></tr>
+          <tr><td class="px-5 py-3 border-b border-slate-100">Keyword stuffing</td><td class="px-5 py-3 border-b border-slate-100">No meaningful gain</td></tr>
+          <tr><td class="px-5 py-3">Authoritative tone alone</td><td class="px-5 py-3">No significant gain</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The finding that matters most here is about who gained. When pages added cited sources, the site ranked 5th gained 115% in visibility while the site ranked 1st lost 30% in relative terms as others caught up. The authors put this down to generative engines assessing the content itself rather than leaning on backlinks and domain authority, which naturally favour sites that have been around longer.</p>
+
+    <p>That is the real argument for blogging now, and it is worth stating precisely rather than enthusiastically.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Why this matters more for a new website</h2>
+
+    <p>It would be easy to read the last section as "blogs beat domain authority now". They do not, and it is worth being honest about that, because the opposite evidence is strong.</p>
+
+    <ul class="space-y-4 my-8 list-disc pl-6 marker:text-blue-500">
+      <li class="pl-1">A <a href="https://www.digitalapplied.com/blog/we-analyzed-1000-ai-overviews-citation-pattern-study" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">study of 1,000 AI Overviews</a> found domain authority was the single strongest correlate with being cited, at +0.61 overall and +0.71 on informational queries.</li>
+      <li class="pl-1">Roughly 12 domains take 47% of all citations.</li>
+      <li class="pl-1">In Ahrefs' <a href="https://ahrefs.com/blog/most-cited-domains-ai-overviews/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">most-cited domains list</a> for September 2026, covering 3 million queries, the top ten are YouTube, Reddit, Facebook, Google, Instagram, Quora, Wikipedia, TikTok, Amazon and Walmart. Every one has a Domain Rating between 92 and 100.</li>
+    </ul>
+
+    <p>So a new site is not going to take broad, high-volume queries from those platforms by writing blog posts. That was never realistic and it is less realistic now.</p>
+
+    <p>What a new site can do is win the questions those platforms answer badly or not at all. The same 1,000-Overview study found definitional queries carry the longest citation lists and are the easiest category for sites outside the dominant group to appear in. Commercial queries were the hardest, with the shortest citation lists and a strong skew to established publications.</p>
+
+    <p>That gives a workable rule. The narrower and more specific the question, the better your chances with a new site. A post answering "how long does a custom sign take to manufacture" has a real chance. A post answering "what is marketing" has none.</p>
+
+    <p>This is also why blogs suit a new site better than a new site suits any other channel. A service page can only answer the handful of questions it is about. A blog can answer two hundred specific questions, and specificity is where the opening is.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">People do not ask one question any more</h2>
+
+    <p>This is the part that changes how a blog post should be written, and it gets very little attention.</p>
+
+    <p>A search used to be one short query. The average Google search runs about 3.4 words. An average prompt to an AI assistant runs around 23 words, roughly seven times longer, and it usually carries context about the person's situation.</p>
+
+    <p>More importantly, it rarely stops there. The answer produces the next question. Someone asking what a shop fit-out costs will next ask what drives the cost up, then what a realistic timeline is, then what goes wrong when it runs late. Each answer creates the next gap.</p>
+
+    <p>Two mechanisms sit behind this, and both are documented.</p>
+
+    <p><strong class="font-semibold text-slate-900">The question gets broken apart before it is answered.</strong> Google describes AI Mode as using a <a href="https://blog.google/products-and-platforms/products/search/google-search-ai-mode-update/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">query fan-out</a> technique, breaking a question into subtopics and issuing many queries at once. So a single prompt is already being matched against your content from several directions.</p>
+
+    <p><strong class="font-semibold text-slate-900">Repeating the obvious answer gets you dropped.</strong> Google holds a patent called <a href="https://www.searchenginejournal.com/googles-information-gain-patent-for-ranking-web-pages/524464/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">Contextual Estimation of Link Information Gain</a>, granted in 2024, whose stated context is assistants and chatbots. It describes scoring documents by how much new information they add beyond what the user has already been shown. On a follow-up turn, documents that mostly repeat the first answer can be ranked lower, and redundant ones demoted outright.</p>
+
+    <p>The practical consequence is specific. If your post only answers the opening question, it is useful for one turn of a conversation that typically runs several turns deep, and on every later turn it is the kind of document that gets passed over for adding nothing new.</p>
+
+    <p>So a post is worth writing when it carries the whole chain:</p>
+
+    <ol class="space-y-4 my-8 list-decimal pl-6 marker:text-blue-500 marker:font-bold">
+      <li class="pl-2">The direct answer to the question asked</li>
+      <li class="pl-2">The questions that answer immediately raises, such as what it depends on, what it costs, how long it takes</li>
+      <li class="pl-2">The questions only someone who has actually done the work would think to answer, such as what goes wrong, what the exceptions are, what people get wrong about it</li>
+    </ol>
+
+    <p>That third level is where most published content stops short, and it is the level that holds up when someone keeps asking.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">What a blog post needs to have now</h2>
+
+    <p>Most of this is tested rather than assumed, which is unusual in this subject.</p>
+
+    <ul class="space-y-4 my-8 list-disc pl-6 marker:text-blue-500">
+      <li class="pl-1"><strong class="font-semibold text-slate-900">An answer in the opening, written to stand alone.</strong> Someone should be able to lift the first paragraph out of the page and have it still make sense.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Named sources.</strong> Pages citing at least one named source were cited around twice as often in the 1,000-Overview study, and citing sources was the strongest single intervention in the GEO paper.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Real numbers.</strong> Adding statistics tested as one of the three top interventions. A figure with a source attached is far more quotable than a claim without one.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Depth across the follow-up chain</strong>, as above. One question answered three levels down beats three questions answered one level down.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Plain structure.</strong> Headings that say what is in the section, short paragraphs, and numbered steps where something is a sequence. Structured how-to content was cited more often than the same content written loosely.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Enough length to be substantial, but only where it is earned.</strong> Pages over 2,500 words were cited 1.6 times more than pages under 800. That is a step effect rather than a reward for padding, and length by itself achieves nothing.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Written for one specific question</strong>, not one broad keyword.</li>
+    </ul>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">What does not work</h2>
+
+    <ul class="space-y-4 my-8 list-disc pl-6 marker:text-blue-500">
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Publishing to hit a number.</strong> Ten posts a month that circle the same ground will do less than four that each cover something properly. Volume on its own has never been the mechanism, and it is a poor fit for a budget that is already tight.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Restating what the AI answer already says.</strong> This is the direct lesson of the information gain patent. A page adding nothing beyond the obvious answer is the page most easily left out.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Posts with no sources and no figures.</strong> The two interventions that tested strongest are the two most often skipped.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Expecting clicks from informational posts.</strong> Many will be read inside an answer rather than on your site. The return is being known and being quoted, which is slower and harder to report on, but it is the return that is actually available.</li>
+      <li class="pl-1"><strong class="font-semibold text-slate-900">Writing for a keyword rather than a question.</strong> Keyword stuffing showed no meaningful gain in testing. The research is quite clear about this one.</li>
+    </ul>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">A blog on its own is not enough</h2>
+
+    <p>Worth saying, because it is the obvious gap in the argument so far.</p>
+
+    <p>Research collected by <a href="https://www.onely.com/blog/what-influences-brand-visibility-in-ai-search-a-practical-guide-for-2026/" target="_blank" rel="noopener" class="text-blue-600 font-medium hover:underline">Onely</a> points consistently in one direction: AI answers cite third-party content far more than they cite company websites. One analysis of 250,000 citations put third-party content at roughly three times the rate of company sites. A study of 6.8 million citations split it closer to even, with first-party sites at 44% and listings and review platforms at 42%. The figures vary, but no version of them says your own site carries this alone.</p>
+
+    <p>In practice that means a blog works alongside being present where other people are writing and talking: review platforms and listings in your category, communities where your customers ask questions, and other people's content where a mention is natural. A new brand that exists only on its own domain is relying on the weaker half of the evidence.</p>
+
+    <p>This does not reduce the case for blogging. It sets a realistic expectation of what a blog does by itself.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">So do you still need a blog?</h2>
+
+    <p>The answer depends on which situation you are in, and the three are quite different.</p>
+
+    <p><strong class="font-semibold text-slate-900">A new site with little or no authority: yes, and it is probably your cheapest option.</strong> You are not going to outrank established platforms on broad queries. You can answer specific questions properly, and the evidence says that is where sites outside the dominant group get picked up.</p>
+
+    <p><strong class="font-semibold text-slate-900">An established site with commercial pages that already perform: yes, but as a visibility layer.</strong> The reasoning that moved budget to service and feature pages still holds. Those pages still convert. A blog now does a different job, which is giving the engines material to quote and keeping the brand present in answers you are not otherwise part of.</p>
+
+    <p><strong class="font-semibold text-slate-900">Anyone expecting the traffic blogs produced in 2019: no.</strong> That traffic came from people clicking through for answers they now get without clicking. It is not coming back, and planning around its return will waste a year.</p>
+
+    <p>The honest summary is that blogging has become slower and less directly measurable, while becoming more important for the sites that have the least else to work with.</p>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Summary</h2>
+
+    <p>Blogs are no longer a traffic channel for informational topics, and pretending otherwise leads to disappointment. What they are now is the cheapest way to become quotable, which matters most to sites with the least authority. Write for one specific question, answer it three levels deep, cite real sources and real numbers, and accept that much of the return arrives as visibility rather than clicks.</p>
+
+    <p>If you are starting from a new site and wondering how long any of this takes, I have written about that in <a href="/blog/how-long-does-seo-take" class="text-blue-600 font-medium hover:underline">how long SEO takes to show results</a>.</p>
+
+    <!-- FAQ Section -->
+    <section class="pt-10">
+      <h2 class="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Frequently asked questions</h2>
+
+      <div class="space-y-4">
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Is blogging dead in 2026?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4">
+              <i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>No, but its job has changed. Blogs no longer reliably bring traffic for informational topics, because AI answers absorb those clicks. They now work as a way to get cited and keep a brand present in answers, which matters most for newer sites with little authority.</p>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Do blogs still bring traffic?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4">
+              <i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>Less than before, and it depends on the topic. Simple factual and definitional posts lose the most, since the answer appears above the results. Posts on specific, narrow questions where someone needs detail still earn clicks, and comparison and decision content has held up better.</p>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            How many blog posts does a new website need?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4">
+              <i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>There is no fixed number, and the count matters less than coverage. It is more useful to think in terms of answering each important question properly, three levels deep, than publishing to a monthly target. Four thorough posts will usually outperform ten thin ones.</p>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Do AI tools steal content from blogs?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4">
+              <i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>They summarise it, and that does reduce clicks. Pew Research found users clicked a result in 8% of visits when an AI summary appeared, against 15% without. The trade is that being cited puts you in front of people who would never have found your site in the results.</p>
+          </div>
+        </details>
+
+        <details class="group bg-white/60 backdrop-blur-sm border border-slate-200 rounded-2xl p-6 hover:border-blue-300 transition-all duration-300 open:bg-white open:shadow-lg open:shadow-slate-200/50 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold list-none text-slate-900 text-lg outline-none">
+            Should a small business write blogs or focus on service pages?
+            <span class="transition-transform duration-300 group-open:rotate-180 shrink-0 ml-4">
+              <i data-lucide="chevron-down" class="w-5 h-5 text-blue-500"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 mt-4 leading-relaxed text-base">
+            <p>Service pages first, since that is where enquiries come from. Blogs come next, and they are what make the service pages findable. A service page alone answers very few questions. A blog can answer the hundred specific ones people actually ask.</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6 tracking-tight">Sources</h2>
+
+    <ul class="space-y-3 my-8 list-disc pl-6 marker:text-blue-500 text-base">
+      <li class="pl-1"><a href="https://thegeocommunity.com/blogs/generative-engine-optimization/geo-princeton-paper-original-study/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">GEO: Generative Engine Optimization, Princeton and IIT Delhi, KDD 2024</a></li>
+      <li class="pl-1"><a href="https://www.digitalapplied.com/blog/we-analyzed-1000-ai-overviews-citation-pattern-study" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Citation pattern study of 1,000 AI Overviews, April 2026</a></li>
+      <li class="pl-1"><a href="https://news.designrush.com/ai-overview-citations-drop-ahrefs" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Ahrefs study on AI Overview citations and top 10 rankings</a></li>
+      <li class="pl-1"><a href="https://ahrefs.com/blog/most-cited-domains-ai-overviews/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">The 50 most-cited websites in Google AI Overviews, September 2026</a></li>
+      <li class="pl-1"><a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Pew Research on clicks when an AI summary appears</a></li>
+      <li class="pl-1"><a href="https://blog.google/products-and-platforms/products/search/google-search-ai-mode-update/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Google on AI Mode and the query fan-out technique</a></li>
+      <li class="pl-1"><a href="https://www.searchenginejournal.com/googles-information-gain-patent-for-ranking-web-pages/524464/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Google's information gain patent, Contextual Estimation of Link Information Gain</a></li>
+      <li class="pl-1"><a href="https://www.onely.com/blog/what-influences-brand-visibility-in-ai-search-a-practical-guide-for-2026/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">What influences brand visibility in AI search</a></li>
+      <li class="pl-1"><a href="https://www.orbitmedia.com/blog/traditional-search-vs-ai-search/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Traditional search versus AI search, query length comparison</a></li>
+    </ul>
+
+  </article>
+
+  <!-- CTA Section -->
+  <section class="bg-gradient-to-b from-slate-900 to-slate-950 py-24 text-center px-6 relative overflow-hidden border-t border-slate-800">
+    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+    <div class="max-w-3xl mx-auto space-y-8 relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
+        Not sure what your blog should be covering?
+      </h2>
+      <p class="text-xl text-slate-300 font-medium">
+        Send me your website and a line about your goals. I will share where I think SEO can help, and what to focus on first.
+      </p>
+      <div class="pt-4">
+        <a
+          href="mailto:bsachin25@gmail.com?subject=SEO%20enquiry"
+          class="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/25 border border-blue-400/30 hover:-translate-y-0.5"
+        >
+          <span>Get in touch</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 py-8 text-center text-slate-500 text-sm border-t border-slate-900">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>© 2026 Sachin Bhat. All rights reserved.</p>
+      <div class="mt-4 md:mt-0 space-x-6">
+        <a href="mailto:bsachin25@gmail.com" class="hover:text-white transition-colors">bsachin25@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sachinbhatseo/" target="_blank" rel="noopener" class="hover:text-white transition-colors">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Initialize Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
